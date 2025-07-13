@@ -19,7 +19,8 @@ DELIVERABLE: A VERILOG/VHDL CODE, TESTBENCH, AND SIMULATION REPORT.
 
 For starters, I studied the functional requirements of a basic al. This includes arithmetic operations such as addition and subtraction, and logical operations such as and, or and xor. Ara can also perform shift operations or comparison tasks. After I understood these main functions, I started planning how to implement them using Verilog, a hardware description language used to design digital circuits.
 
-The Verilog program was written by dividing Ara into manageable modules. Each module corresponded to a specific operation. I used case statements to differentiate operations based on control inputs. The inputs and outputs were set using input and output words in Verilog. I also always used blocks triggered by changes in the input to perform the necessary logical or arithmetic calculations.
+The Verilog program was written by dividing Ara into manageable modules. Each module corresponded to a specific operation. I used case statements to differentiate operations based on control inputs. The inputs <img width="1920" height="567" alt="T1" src="https://github.com/user-attachments/assets/f85194eb-d931-434a-b60b-8e4a61db26dc" />
+and outputs were set using input and output words in Verilog. I also always used blocks triggered by changes in the input to perform the necessary logical or arithmetic calculations.
 
 After the coding was completed, I went to simulate the design. Simulation is an essential step in hardware design as it allows you to check functionality without creating real hardware. For this purpose, I created a Verilog Testbench. TestBench has applied a variety of input combinations to the ALD and monitored the output to verify that it corresponded to the expected results. With that, I was able to identify and correct any bug in the design.
 
